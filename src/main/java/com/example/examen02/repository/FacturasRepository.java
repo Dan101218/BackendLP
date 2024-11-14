@@ -1,9 +1,10 @@
 package com.example.examen02.repository;
 
-import com.example.examen02.entity.Escuela;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import com.example.examen02.entity.facturas;
 
 @Repository
-public interface EscuelaRepository extends JpaRepository<Escuela, Long> {
+public interface FacturasRepository extends JpaRepository<facturas, Long> {
+
 }

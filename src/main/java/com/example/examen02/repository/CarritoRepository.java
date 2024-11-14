@@ -1,9 +1,10 @@
 package com.example.examen02.repository;
 
-import com.example.examen02.entity.Facultad;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import com.example.examen02.entity.carrito;
 
 @Repository
-public interface FacultadRepository extends JpaRepository<Facultad, Long> {
+public interface CarritoRepository extends JpaRepository<carrito, Long> {
+
 }
